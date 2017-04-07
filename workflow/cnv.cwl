@@ -39,7 +39,7 @@ outputs:
 steps:
 
   zcat:
-    run: ../tools/zcat.cwl
+    run: zcat.cwl
     in:
       gzipFile: GENO_FA_GZ
       unzippedFileName:
@@ -47,7 +47,7 @@ steps:
     out: [unzippedFile]
 
   varscan:
-    run: ../tools/varscan_cnv.cwl
+    run: varscan_cnv.cwl
     in:
       control_bam_input: NORMAL_BAM
       tumor_bam_input: TUMOR_BAM
@@ -59,7 +59,7 @@ steps:
       [output]
 
   adtex:
-    run: ../tools/adtex.cwl
+    run: adtex.cwl
     in:
       control_bam_input: NORMAL_BAM
       tumor_bam_input: TUMOR_BAM
