@@ -4,7 +4,7 @@
 class: Workflow
 cwlVersion: v1.0
 
-doc: "Copynumber variation workflow, runs ADTEx and Varscan_somatic"
+doc: "Copynumber variation workflow, runs ADTEx and Varscan"
 
 requirements:
   - class: MultipleInputFeatureRequirement
