@@ -49,7 +49,7 @@ inputs:
       prefix: -s 
 
 
-stdout: output.cnv
+stdout: adtex.cnv
 
 outputs: 
   output:

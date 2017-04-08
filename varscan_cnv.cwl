@@ -59,7 +59,7 @@ inputs:
       prefix: -q 
 
 
-stdout: output.cnv
+stdout: varscan.cnv
 
 outputs: 
   - id: output
