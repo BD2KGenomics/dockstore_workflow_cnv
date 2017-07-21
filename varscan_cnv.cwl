@@ -9,11 +9,11 @@ label: Varscan2 workflow
 baseCommand: ['-s', './']
 
 doc: |
-    A Docker container for a Varscan2 workflow. See the [github repo](https://github.com/Jeltje/varscan2) for more information.
+    A Docker container for a Varscan2 workflow. See the [github repo](https://github.com/BD2KGenomics/dockstore_tool_varscan_cnv.git) for more information.
 
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ucsc_cgl/varscan_cnv
+    dockerPull: quay.io/ucsc_cgl/dockstore_tool_varscan_cnv
 
 inputs:
   genome:

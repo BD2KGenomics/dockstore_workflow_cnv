@@ -7,9 +7,11 @@ cwlVersion: v1.0
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/ucsc_cgl/adtex"
+    dockerPull: "quay.io/ucsc_cgl/dockstore_tool_adtex_cnv"
 
 baseCommand: ['-o', './', '--tostdout']
+
+doc: |                                                                                                                                                   A Docker container for an ADTEx workflow. See the [github repo](https://github.com/BD2KGenomics/dockstore_tool_adtex.git) for more information.
 
 inputs:
 
