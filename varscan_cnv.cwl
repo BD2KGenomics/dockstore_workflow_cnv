@@ -8,7 +8,7 @@ label: Varscan2 workflow
 
 baseCommand: ['-s', './']
 
-doc: |
+doc: 
     A Docker container for a Varscan2 workflow. See the [github repo](https://github.com/BD2KGenomics/dockstore_tool_varscan_cnv.git) for more information.
 
 requirements:

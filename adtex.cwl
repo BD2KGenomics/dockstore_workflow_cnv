@@ -11,7 +11,7 @@ requirements:
 
 baseCommand: ['-o', './', '--tostdout']
 
-doc: |                                                                                                                                                   A Docker container for an ADTEx workflow. See the [github repo](https://github.com/BD2KGenomics/dockstore_tool_adtex.git) for more information.
+doc:                                                                                                                                                    A Docker container for an ADTEx workflow. See the [github repo](https://github.com/BD2KGenomics/dockstore_tool_adtex.git) for more information.
 
 inputs:
 
