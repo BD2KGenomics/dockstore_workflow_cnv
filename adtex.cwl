@@ -7,7 +7,7 @@ cwlVersion: v1.0
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/ucsc_cgl/dockstore_tool_adtex_cnv:v1.0.0"
+    dockerPull: "quay.io/ucsc_cgl/dockstore_tool_adtex:v1.0.0"
 
 baseCommand: ['-o', './', '--tostdout']
 
