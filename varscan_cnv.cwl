@@ -12,7 +12,7 @@ doc: "A Docker container for a Varscan2 workflow. See the [github repo](https://
 
 requirements:
   - class: DockerRequirement
-    dockerPull: quay.io/ucsc_cgl/dockstore_tool_varscan_cnv:v1.0.0
+    dockerPull: quay.io/ucsc_cgl/dockstore_tool_varscan_cnv:1.0.1
 
 inputs:
   genome:
